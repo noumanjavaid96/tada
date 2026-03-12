@@ -1,4 +1,12 @@
-<!-- ---
+---
+title: TADA Text-to-Speech
+emoji: 🎙️
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.7.0
+app_file: app.py
+pinned: false
 license: mit
 language:
   - en
@@ -6,7 +14,7 @@ tags:
   - tts
   - text-to-speech
   - speech-language-model
---- -->
+---
 
 <h1 align="center">TADA: A Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment</h1>
 
