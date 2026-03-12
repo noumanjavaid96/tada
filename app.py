@@ -7,6 +7,7 @@ A Gradio-based UI for the TADA (Text-Acoustic Dual Alignment) speech synthesis m
 import json
 import os
 from pathlib import Path
+from typing import Any
 
 import gradio as gr
 import torch
@@ -109,7 +110,7 @@ def generate_speech(
     cfg_scale: float,
     num_flow_steps: int,
     progress: gr.Progress = gr.Progress(),
-) -> tuple[tuple[int, any] | None, str]:
+) -> tuple[tuple[int, Any] | None, str]:
     """
     Generate speech from text using the TADA model.
 
