@@ -84,6 +84,26 @@ pip install -e .
 
 All models use the same encoder ([`HumeAI/tada-codec`](https://huggingface.co/HumeAI/tada-codec)) and can be loaded using the same API.
 
+## Web UI
+
+TADA includes a Gradio-based web interface for easy text-to-speech generation.
+
+### Launch the UI
+
+```bash
+python app.py
+```
+
+Then open your browser to `http://localhost:7860`.
+
+### UI Features
+
+- **Reference Voice Upload**: Upload or record audio to clone a voice
+- **Sample Audio Selection**: Use built-in sample audio files
+- **Multilingual Support**: Generate speech in 10 languages (English, Arabic, Chinese, German, Spanish, French, Italian, Japanese, Polish, Portuguese)
+- **Model Selection**: Choose between TADA-1B (faster) or TADA-3B-ML (higher quality)
+- **Advanced Settings**: Fine-tune temperature, CFG scale, and flow matching steps
+
 ## Run Inference
 
 ### Text-to-Speech
