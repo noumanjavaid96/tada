@@ -1,0 +1,5 @@
+transformers>=4.57.1,<5
+torch>=2.7.0,<2.8.0
+torchaudio
+torchvision
+descript-audio-codec>=1.0.0
